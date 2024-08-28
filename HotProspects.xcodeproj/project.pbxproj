@@ -11,6 +11,19 @@
 		66AAC2B02C7C1535005E54ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2AF2C7C1535005E54ED /* ContentView.swift */; };
 		66AAC2B22C7C1536005E54ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66AAC2B12C7C1536005E54ED /* Assets.xcassets */; };
 		66AAC2B52C7C1536005E54ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66AAC2B42C7C1536005E54ED /* Preview Assets.xcassets */; };
+		66AAC2BC2C7C16B3005E54ED /* SelectItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2BB2C7C16B3005E54ED /* SelectItems.swift */; };
+		66AAC2BF2C7C1761005E54ED /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2BE2C7C1761005E54ED /* Tabs.swift */; };
+		66AAC2C12C7C942E005E54ED /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2C02C7C942E005E54ED /* ResultType.swift */; };
+		66AAC2C32C7C9767005E54ED /* ImageIInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2C22C7C9767005E54ED /* ImageIInterpolation.swift */; };
+		66AAC2C52C7C989B005E54ED /* ContextMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2C42C7C989B005E54ED /* ContextMenus.swift */; };
+		66AAC2C72C7C9B12005E54ED /* CustomRowActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2C62C7C9B12005E54ED /* CustomRowActions.swift */; };
+		66AAC2C92C7C9C68005E54ED /* SchedulingNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2C82C7C9C68005E54ED /* SchedulingNotifications.swift */; };
+		66AAC2CB2C7CA176005E54ED /* PackageDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2CA2C7CA176005E54ED /* PackageDependencies.swift */; };
+		66AAC2CE2C7CA224005E54ED /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 66AAC2CD2C7CA224005E54ED /* SamplePackage */; };
+		66AAC2D02C7DA60A005E54ED /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2CF2C7DA60A005E54ED /* ProspectsView.swift */; };
+		66AAC2D22C7DA61F005E54ED /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2D12C7DA61F005E54ED /* MeView.swift */; };
+		66AAC2D42C7DA8B8005E54ED /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAC2D32C7DA8B8005E54ED /* Prospect.swift */; };
+		66AAC2D72C7EA8BB005E54ED /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 66AAC2D62C7EA8BB005E54ED /* CodeScanner */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,17 @@
 		66AAC2AF2C7C1535005E54ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66AAC2B12C7C1536005E54ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66AAC2B42C7C1536005E54ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66AAC2BB2C7C16B3005E54ED /* SelectItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectItems.swift; sourceTree = "<group>"; };
+		66AAC2BE2C7C1761005E54ED /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		66AAC2C02C7C942E005E54ED /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		66AAC2C22C7C9767005E54ED /* ImageIInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageIInterpolation.swift; sourceTree = "<group>"; };
+		66AAC2C42C7C989B005E54ED /* ContextMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenus.swift; sourceTree = "<group>"; };
+		66AAC2C62C7C9B12005E54ED /* CustomRowActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRowActions.swift; sourceTree = "<group>"; };
+		66AAC2C82C7C9C68005E54ED /* SchedulingNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingNotifications.swift; sourceTree = "<group>"; };
+		66AAC2CA2C7CA176005E54ED /* PackageDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageDependencies.swift; sourceTree = "<group>"; };
+		66AAC2CF2C7DA60A005E54ED /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		66AAC2D12C7DA61F005E54ED /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		66AAC2D32C7DA8B8005E54ED /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66AAC2D72C7EA8BB005E54ED /* CodeScanner in Frameworks */,
+				66AAC2CE2C7CA224005E54ED /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +79,10 @@
 			children = (
 				66AAC2AD2C7C1535005E54ED /* HotProspectsApp.swift */,
 				66AAC2AF2C7C1535005E54ED /* ContentView.swift */,
+				66AAC2CF2C7DA60A005E54ED /* ProspectsView.swift */,
+				66AAC2D12C7DA61F005E54ED /* MeView.swift */,
+				66AAC2D32C7DA8B8005E54ED /* Prospect.swift */,
+				66AAC2BD2C7C16B9005E54ED /* Demos */,
 				66AAC2B12C7C1536005E54ED /* Assets.xcassets */,
 				66AAC2B32C7C1536005E54ED /* Preview Content */,
 			);
@@ -65,6 +95,21 @@
 				66AAC2B42C7C1536005E54ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66AAC2BD2C7C16B9005E54ED /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				66AAC2C22C7C9767005E54ED /* ImageIInterpolation.swift */,
+				66AAC2C42C7C989B005E54ED /* ContextMenus.swift */,
+				66AAC2C62C7C9B12005E54ED /* CustomRowActions.swift */,
+				66AAC2C82C7C9C68005E54ED /* SchedulingNotifications.swift */,
+				66AAC2CA2C7CA176005E54ED /* PackageDependencies.swift */,
+				66AAC2C02C7C942E005E54ED /* ResultType.swift */,
+				66AAC2BB2C7C16B3005E54ED /* SelectItems.swift */,
+				66AAC2BE2C7C1761005E54ED /* Tabs.swift */,
+			);
+			path = Demos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +128,10 @@
 			dependencies = (
 			);
 			name = HotProspects;
+			packageProductDependencies = (
+				66AAC2CD2C7CA224005E54ED /* SamplePackage */,
+				66AAC2D62C7EA8BB005E54ED /* CodeScanner */,
+			);
 			productName = HotProspects;
 			productReference = 66AAC2AA2C7C1535005E54ED /* HotProspects.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +160,10 @@
 				Base,
 			);
 			mainGroup = 66AAC2A12C7C1535005E54ED;
+			packageReferences = (
+				66AAC2CC2C7CA224005E54ED /* XCRemoteSwiftPackageReference "SamplePackage" */,
+				66AAC2D52C7EA8BB005E54ED /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 66AAC2AB2C7C1535005E54ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +190,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66AAC2D22C7DA61F005E54ED /* MeView.swift in Sources */,
+				66AAC2C12C7C942E005E54ED /* ResultType.swift in Sources */,
 				66AAC2B02C7C1535005E54ED /* ContentView.swift in Sources */,
+				66AAC2D42C7DA8B8005E54ED /* Prospect.swift in Sources */,
+				66AAC2BC2C7C16B3005E54ED /* SelectItems.swift in Sources */,
 				66AAC2AE2C7C1535005E54ED /* HotProspectsApp.swift in Sources */,
+				66AAC2C92C7C9C68005E54ED /* SchedulingNotifications.swift in Sources */,
+				66AAC2C32C7C9767005E54ED /* ImageIInterpolation.swift in Sources */,
+				66AAC2C72C7C9B12005E54ED /* CustomRowActions.swift in Sources */,
+				66AAC2CB2C7CA176005E54ED /* PackageDependencies.swift in Sources */,
+				66AAC2C52C7C989B005E54ED /* ContextMenus.swift in Sources */,
+				66AAC2D02C7DA60A005E54ED /* ProspectsView.swift in Sources */,
+				66AAC2BF2C7C1761005E54ED /* Tabs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +339,7 @@
 				DEVELOPMENT_TEAM = LCB8NQV3VV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR Codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +369,7 @@
 				DEVELOPMENT_TEAM = LCB8NQV3VV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR Codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +410,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66AAC2CC2C7CA224005E54ED /* XCRemoteSwiftPackageReference "SamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/SamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		66AAC2D52C7EA8BB005E54ED /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66AAC2CD2C7CA224005E54ED /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66AAC2CC2C7CA224005E54ED /* XCRemoteSwiftPackageReference "SamplePackage" */;
+			productName = SamplePackage;
+		};
+		66AAC2D62C7EA8BB005E54ED /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66AAC2D52C7EA8BB005E54ED /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 66AAC2A22C7C1535005E54ED /* Project object */;
 }

@@ -9,7 +9,11 @@ import SwiftUI
 
 struct ImageIInterpolation: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(.example)
+            .interpolation(.none)
+            .resizable()
+            .scaledToFit()
+            .background(.black)
     }
 }
 

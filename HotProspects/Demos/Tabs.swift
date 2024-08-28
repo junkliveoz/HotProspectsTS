@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct Tabs: View {
+    @State private var selectedTab = "One"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView(selection: $selectedTab) {
+            Button("Show Tab 2") {
+                selectedTab = "Two"
+            }
+            .tabItem { Label("One", systemImage: "star") }.tag("One")
+            Text("Tab 2")
+                .tabItem { Label("Two", systemImage: "circle") }.tag("Two")
+        }
     }
 }
 

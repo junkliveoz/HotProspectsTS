@@ -9,7 +9,22 @@ import SwiftUI
 
 struct CustomRowActions: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            Text("Taylor Swift")
+                .swipeActions {
+                    
+                    Button("Delete", systemImage: "minus.circle", role: .destructive) {
+                        print("Delete")
+                    }
+                }
+                
+                .swipeActions(edge: .leading) {
+                    Button("Pin", systemImage: "pin") {
+                        print("Pinning")
+                    }
+                    .tint(.orange)
+                }
+        }
     }
 }
 
